@@ -3,14 +3,14 @@ import Subcontainer from './Subcontainer';
 import Subcontainer2 from './Subcontainer2';
 import lp from './lp.jpg';
 import Rawcon from './Rawcon';
-import jpd from './jpd.jpg';
+import { Link } from 'react-router-dom'
 function Storetab() {
    
   return(
     <div id="Storetab">
          <div id="navbar">
              <p className="navtabs active"><b>Discover</b></p>
-             <p className="navtabs"><b>Browse</b></p>
+            <Link to="/Browse"> <p className="navtabs"><b>Browse</b></p></Link>
             <div id="righte">
                <p className="navtabs"><b>Whishlist</b></p>
                <input type="text" id="rsearchbar" placeholder="search here"/>

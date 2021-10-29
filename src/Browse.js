@@ -7,12 +7,13 @@ import Discounted from './Discounted';
 import Features from './Features';
 import Types from './Types';
 import Appli from './Appli';
-import da from './da.png'
+import da from './da.png';
+import {Link} from 'react-router-dom'
 function Browse() {
   return(
     <div id="Browsetab">
         <div id="navbar">
-             <p className="navtabs"><b>Discover</b></p>
+             <Link to="/"><p className="navtabs"><b>Discover</b></p></Link>
              <p className="navtabs active"><b>Browse</b></p>
             <div id="righte">
                <p className="navtabs"><b>Whishlist</b></p>
