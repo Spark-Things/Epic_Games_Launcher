@@ -1,0 +1,36 @@
+#rawcontainer{
+  float: left;
+  height:max-content;
+  width: 100%;
+  background-color:transparent;
+  padding: 20px;
+  overflow: hidden;
+}
+#content{
+  color: white;
+  width: 65%;
+  height: 100%;
+  float: left;
+  margin-left: 20px;
+  padding: 10px;
+}
+#rawimg{
+  float: left;
+  height: 150px;
+  width: 300px;
+  border-radius: 10px;
+}
+#rawhori{
+  color: rgba(138, 138, 138);
+  width: 100%;
+  float: left;
+  margin-top: 20px;
+  opacity: .2;
+}
+#rawlebal{
+  color: rgb(104, 104, 104);
+  font-size: 12px;
+}
+#readmore{
+  text-decoration: underline;
+}

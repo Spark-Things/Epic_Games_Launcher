@@ -1,0 +1,165 @@
+#Maintab{
+  float: left;
+  width: 85.2%;
+  background-color: rgb(28, 29, 29);
+  height:max-content;
+  margin-left: 250px;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#Mleft{
+  float: left;
+  width: 70%;
+  height:max-content;
+  background-color: transparent;
+}
+
+.container{
+  color: white;
+  height:max-content;
+  width: 100%;
+  background-color:transparent;
+  padding: 10px;
+}
+.qlimg{
+  
+  float: left;
+  width: 250px;
+  height: 150px;
+  background-color: yellow;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.container2{
+  float: left;
+  color: white;
+  width: 100%;
+  height:max-content;
+  background-color: transparent;
+  padding: 10px;
+}
+.container3{
+  float: left;
+  color: white;
+  width: 50%;
+  height:max-content;
+  background-color:transparent;
+  padding: 10px;
+}
+.nimg{
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+.container4{
+  float: left;
+  color: white;
+  width: 100%;
+  height:max-content;
+  margin-top: 20px;
+  background-color: rgb(37, 37, 37);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+/*-----       ------------------------  Right side elements ---------------------------  --- */
+#Mright{
+  float: left;
+  color: white;
+  position:fixed;
+  width: 400px;
+  height:max-content;
+  background-color:transparent;
+  border-radius: 10px;
+  border: 5px rgb(150, 150, 150) solid;
+  padding: 10px;
+  overflow: hidden;
+  margin-left: 59%;
+}
+.container5{
+  text-align: center;
+  float: left;
+  width: 100%;
+  height: 50px;
+  background-color:transparent;
+  padding: 10px;
+}
+#searchbar{
+  float: left;
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  text-decoration: bold;
+}
+.container6{
+  float: left;
+  width: 100%;
+  height:max-content;
+  background-color:transparent;
+  margin-top: 20px;
+  padding: 10px;
+}
+.container8{
+  float: left;
+  width: 100%;
+  height: 420px;
+  background-color:transparent;
+  margin-top: 20px;
+  padding: 10px;
+}
+.shead{
+  font-size: 12px;
+}
+.playerprof{
+  float: left;
+  width: 100%;
+  height:max-content;
+  background-color:transparent;
+  padding: 10px;
+}
+#playerdp{
+  float: left;
+  background-color:chocolate;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.playername{
+  float: left;
+  font-size: 14px;
+  margin: 0px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+#label{
+  width: max-content;
+  float: left;
+  color: white;
+  font-size: 9px;
+  background-color: rgba(56, 56, 56, 0.774);
+  padding: 4px;
+  margin-top: 10px;
+  margin-left: 2px;
+  border-radius: 5px;
+}
+#horizentalline{
+  width: 100%;
+  float: left;
+  color: antiquewhite;
+  margin-top: 10px;
+  opacity: .6;
+}
+#discri{
+  color: rgb(129, 129, 129);
+  margin: 0px;
+  font-size: 14px;
+}
+.container7{
+  float: left;
+  width: 100%;
+  padding: 10px;
+}

@@ -1,0 +1,102 @@
+#Browsetab{
+  float: left;
+  width: 85.2%;
+  background-color: rgb(28, 29, 29);
+  height:max-content;
+  margin-left: 250px;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#brleft{
+  float: left;
+  width: 80%;
+  height: max-content;
+}
+#brighttab{
+  float: left;
+  width: 20%;
+  height:max-content;
+  padding: 10px;
+  padding-top: 0px;
+}
+.tabnav{
+  height:max-content;
+  float: left;
+  width: 100%;
+  padding: 10px;
+  padding-left: 0px;
+}
+#lable{
+  float: left;
+  color :rgb(109, 109, 109);
+  font-size: 16px;
+}
+#Slection{
+  float: left;
+  width: max-content;
+  color: white;
+  font-size: 16px;
+  background-color: transparent;
+  border: 0px;
+  padding-left: 10px;
+  margin-right: 20px;
+}
+#Btn{
+  height:max-content;
+  color: white;
+  background-color: rgb(109, 109, 109);
+  float: right;
+  margin-right: 100px;
+  border: 0px;
+  padding: 10px;
+}
+.brtabs{
+  color: rgb(109, 109, 109);
+  width: 100%;
+  height:max-content;
+  padding: 5px;
+  float: left;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.brtabs:hover{
+  color: white;
+}
+/* ------------------------------   Filter.js CSS here  -----------------------------------*/
+#Econ{
+  float: left;
+   width:100%;
+   padding: 10px;
+   padding-left: 5px;
+}
+.Fp{
+  float: left;
+  color: rgb(109, 109, 109);
+  width: 80%;
+  margin: 0px;
+}
+.Fb{
+  height: 15px;
+  width: 15px;
+  color: rgb(109, 109, 109);
+  float: left;
+  border: 0px;
+  background-color: transparent;
+}
+.brcontainer{
+  overflow: hidden;
+  float: left;
+  color: white;
+  width: 25%;
+  height:max-content;
+  background-color:transparent;
+  padding: 10px;
+}
+hr{
+  color: rgb(109, 109, 109);
+  opacity: .6;
+}
+.active{
+  color: white;
+}

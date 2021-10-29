@@ -1,0 +1,68 @@
+#vertab{
+  float: left;
+  position: fixed;
+  width: 250px;
+  height: 900px;
+  background-color:  rgb(28, 29, 29);
+  margin-right: 0px;
+  padding: 25px;
+}
+#Anc{
+  background-color:transparent;
+  width: 100%;
+  height:80px;
+  margin-top: 10px;
+}
+#Appname{
+  font-size: 16px;
+  float: left;
+  margin: 0px;
+  color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#appicon{
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+#otc{
+  width: 100%;
+  float: left;
+  height: max-content;
+  background-color:transparent;
+}
+.tabnames{
+  float: left;
+  color: rgb(104, 104, 104);
+  opacity: .8;
+  text-decoration: bold;
+  width: 100%;
+  background-color:transparent;
+  margin-top: 30px;
+}
+.tabnames:hover{
+  color: white;
+  opacity: 1;
+}
+.icn{
+  margin: 0px;
+  float: left;
+  width: max-content;
+  margin-left: 25px;
+  margin-top: 5px;
+}
+.vericon{
+  float: left;
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+#dwnt{
+  position:absolute;
+  height:max-content;
+  width: 81%;
+  background-color:transparent;
+  bottom: 30px;
+  margin-bottom: 70px;
+}
