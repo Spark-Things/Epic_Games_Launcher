@@ -68,15 +68,15 @@
 }
  /* --------------------------    Downloadtab  -----------------------------*/
  #Downloadtab{
+   position: fixed;
   float: left;
   width: 85.2%;
-  background-color: rgb(28, 29, 29);
   height:max-content;
   margin-left: 250px;
   padding-top: 40px;
   padding-left: 0px;
   padding-right: 20px;
-  z-index: 1;
+  z-index: 10;
 }
 #Dleft{
   float: left;
@@ -118,5 +118,6 @@
   float: left;
   width:60%;
   height: 800px;
-  background-color:rgba(0, 0, 0, 0.377)
+  background-color:rgba(0, 0, 0, 0.377);
+  
 }
