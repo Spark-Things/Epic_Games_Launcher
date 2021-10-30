@@ -30,9 +30,9 @@ function Library() {
                          <Subcontainer4 className="notinstall"/>
                          <Subcontainer4 className="notinstall"/>
                          <Subcontainer4 className="notinstall"/>
-                       </div>
-                 </div>
-    </div>
+                         </div>
+                   </div>
+                   </div>
   )
 }
 export default Library;

@@ -5,7 +5,6 @@ import lp from './lp.jpg';
 import Rawcon from './Rawcon';
 import { Link } from 'react-router-dom'
 function Storetab() {
-   
   return(
     <div id="Storetab">
          <div id="navbar">
@@ -165,7 +164,7 @@ function Storetab() {
                  <button id="lbtn"><b>LEARN MORE</b></button>
               </div>
           </div>
-    </div>
+          </div>
   )
 }
 export default Storetab;
