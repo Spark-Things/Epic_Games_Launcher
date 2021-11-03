@@ -1,11 +1,11 @@
 
-function Subcontainer2() {
+function Subcontainer2(props) {
   return(
     <div>
        <div className="rcontainer4">
-                   <img className="nimg2"/>
-                   <p id="d"><b>Here Is a discription</b></p>
-                   <p id="od">Other discription</p>
+                   <img className="nimg2" src={props.img}/>
+                   <p id="d"><b>{props.dis}</b></p>
+                   <p id="od">{props.od}</p>
                    <a className="readmore">Read more</a>
               </div>
     </div>

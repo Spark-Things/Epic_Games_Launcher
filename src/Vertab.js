@@ -8,6 +8,7 @@ import ul from './ul.png';
 import db from './db.png';
 import gear from './gear.png';
 import user from './user.png';
+import friends from './friends.png';
 import { Link } from 'react-router-dom';
 function Vertab() {
    const style = {
@@ -33,11 +34,23 @@ function Vertab() {
     }else{
       disp.display = "none";
     }
-   function Clicks(z,v){
+
+    const [prov,setProv] = useState(1);
+    const pdis ={
+      display: ""
+    }
+    console.log(prov);
+    if(prov%2==0){
+      pdis.display = "Block";
+    }else{
+      pdis.display = "none";
+    }
+   function Clicks(z,v,p){
      return(
        function(){ setLive(z);
                    activetab();
-                   Setdis(v)}
+                   Setdis(v);
+                  setProv(p)}
      )
     }
   return(
@@ -82,7 +95,7 @@ function Vertab() {
          <p className="icn"><b>Settings</b></p>
          </div>
          </Link>
-         <div className="tabnames"  style={ Live === 7 ? style : style2}  id="" onClick={Clicks(7,-1)}>
+         <div className="tabnames"  style={ Live === 7 ? style : style2}  id="" onClick={Clicks(7,-1,prov +1)}>
         <img alt="img here" className="vericon" src={user}/>
          <p className="icn"><b>Profiles</b></p>
          </div>
@@ -101,6 +114,12 @@ function Vertab() {
             </div>
            <div id="dright">
            </div>
+           </div>
+           <div id="profsettings" style={pdis}>
+              <a className="Tabs">Manage Account</a>
+              <a className="Tabs">Redeem Code</a>
+              <a className="Tabs">Disable Single Sign-on</a>
+              <a className="Tabs">Sign Out</a>
            </div>
  </>
   )

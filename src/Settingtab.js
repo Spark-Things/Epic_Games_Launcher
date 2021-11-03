@@ -1,9 +1,14 @@
 import './Settingtab.css';
+import back from './back.png';
+import {Link} from 'react-router-dom'
 function Settingtab() {
   return(
     <div id="Settingtab">
       <div id="smenu">
-        <button id="sbtn">aerrow</button>
+        <Link to="/">
+        <button id="sbtn"><img src={back} className="leftbtn"/></button>
+        </Link>
+        <div className="vl"></div>
         <p id="sheading"><b>SETTINGS</b></p>
       </div><br/>
       <hr className="shr"></hr>

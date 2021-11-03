@@ -119,5 +119,21 @@
   width:60%;
   height: 800px;
   background-color:rgba(0, 0, 0, 0.377);
-  
+}
+/* -------------------------------------------- Profile Settings -------------------------------*/
+#profsettings{
+  float: left;
+  position: fixed;
+  height:max-content;
+  width: 250px;
+  background-color: rgb(39, 39, 39);
+  padding: 10px;
+  border-radius: 10px;
+  bottom: 50px;
+}
+.Tabs{
+  color: white;
+  float: left;
+  width: 100%;
+  padding: 10px;
 }

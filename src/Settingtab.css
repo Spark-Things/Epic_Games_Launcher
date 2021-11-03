@@ -16,6 +16,14 @@
   height: max-content;
   width: max-content;
   border: 0px;
+  background-color: transparent;
+}
+.leftbtn{
+  color: rgb(44, 44, 44);
+  padding: 5px;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
 }
 #sheading{
   float: left;
@@ -40,6 +48,7 @@
   float: left;
   width: 100%;
   height:max-content;
+  margin-top: 5px;
 }
 #select{
   color: white;
@@ -68,4 +77,12 @@
   font-size: 20px;
   float: left;
   margin: 5px;
+}
+.vl {
+  float: left;
+  border-left: 2px solid rgb(59, 59, 59);
+  height: 30px;
+  top: 0;
+  margin: 5px;
+  margin-top: 0px;
 }

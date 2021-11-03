@@ -78,11 +78,31 @@
   overflow: hidden;
   margin-left: 59%;
 }
+#fcon{
+  align-items: center;
+  float: left;
+  width:max-content;
+  height:max-content;
+  background-color: rgb(48, 48, 48);
+  margin-left: 25%;
+  padding: 5px;
+  border-radius: 50px;
+}
+.toggle{
+  float: left;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  border-radius: 50px;
+}
+.factive{
+  background-color: rgb(61, 61, 61);
+}
 .container5{
   text-align: center;
   float: left;
   width: 100%;
-  height: 50px;
+  height:max-content;
   background-color:transparent;
   padding: 10px;
 }
@@ -106,7 +126,7 @@
 .container8{
   float: left;
   width: 100%;
-  height: 420px;
+  height: 380px;
   background-color:transparent;
   margin-top: 20px;
   padding: 10px;
@@ -162,4 +182,18 @@
   float: left;
   width: 100%;
   padding: 10px;
+}
+.rleft{
+  float: left;
+  width: 90%;
+}
+.rimg{
+  margin-top: 20px;
+  height: 70px;
+  width: 70px;
+  float:left;
+}
+label{
+  color: gray;
+  font-size: 12px;
 }
